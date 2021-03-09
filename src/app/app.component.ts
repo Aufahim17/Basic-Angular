@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'home',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Basic-Angular';
+  checkingOutput(a, b){
+    return a+b;
+  }
+  visible: string = "true";
 }
